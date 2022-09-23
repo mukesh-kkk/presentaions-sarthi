@@ -1,0 +1,19 @@
+.bar:hover{
+   /* / transform: scale(2)!important; */
+    fill:#0e497a!important ;
+    
+}
+
+#dhsyd{
+    border-radius: 5px;
+    background-color: rgb(138, 219, 251)!important;
+    padding: 3px;
+    color: black !important;;
+}
+#dhsyd::before{
+    position: absolute !important;;;
+    border: 10px solid transparent !important;;
+    border-top-color:aqua !important;;
+    
+
+}

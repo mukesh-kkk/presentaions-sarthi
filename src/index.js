@@ -3,13 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Classed from './Class';
+import CallBackParent from './callBack/CallBackParent';
+import Portals from './portals/Portals';
+import AppWithTimeOut from './AppWithTimeOut';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  
-  
+   
    <>
-   <App/>
+   {/* <App/> */}
+   <AppWithTimeOut/>
+   {/* <Classed/> */}
+
+
+   {/* <CallBackParent/> */}
+   {/* <Portals/> */}
+
+
    </>
    
  
